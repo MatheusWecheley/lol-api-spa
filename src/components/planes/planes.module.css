@@ -1,0 +1,26 @@
+.plane {
+    padding: 0 1.5rem;
+    color: white;
+}
+
+.plane .value1{
+    color: black;
+}
+
+.plane1, .plane2, .plane3 {
+    color: #fff;
+    padding: 0.8rem;
+}
+
+.plane1 span {
+    color: red;
+}
+
+.plane2 span {
+    color: rgb(93, 238, 93)
+}
+
+.plane3 span {
+    color: rgb(255, 230, 4);
+}
+

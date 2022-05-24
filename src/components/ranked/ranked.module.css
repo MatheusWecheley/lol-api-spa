@@ -1,0 +1,24 @@
+.index {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0 6rem;
+}
+
+.bar {
+    border-left: thick solid #000;
+    height: 450px;
+    left: 50%;
+    position: absolute;
+}
+
+
+
+

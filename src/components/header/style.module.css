@@ -1,0 +1,56 @@
+.container {
+    color: #f8f8f8;
+    background-color: #121214;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 1.25em;
+}
+
+.menu {
+    color: #f8f8f8;
+    display: flex;
+    padding: 0.75rem;
+}
+
+.menu span {
+    border: 1px solid;
+    border-color: #6833e4;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    padding: 0.75em;
+    transition: 0.5s ease;
+}
+
+.menu span:hover{
+    background-color: #9466ff;
+}
+
+.searchbar {
+    display: flex;
+    width: 30%;
+}
+
+.searchbar form{
+    width: 100%;
+    display: flex;
+}
+
+.searchbar input {
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.searchbar button {
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #6833e4;
+    padding: 1rem;
+    border-radius: 1rem;
+}

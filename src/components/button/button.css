@@ -1,0 +1,14 @@
+.buttonBuy button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+    padding: 15px;
+    background-color:#6833e4;
+    transition: 0.2s
+}
+
+.buttonBuy button:hover {
+    background-color: #8351fa
+}
