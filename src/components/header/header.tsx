@@ -9,7 +9,7 @@ export function Header() {
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         
-        let response = await fetch(`https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${setIsSearch}?RGAPI-987e4fbe-4e0f-4a6f-9851-e8f984e48d0f`);
+        let response = await fetch(`https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${setIsSearch}?`);
         let data = response.json();
         console.log(data)
     }
